@@ -1,0 +1,37 @@
+To see docker images 
+docker image
+To search build images in docker- hub 
+docker search imagename(Ubuntu)
+
+To pull image form docker-hub
+docker pull image name
+
+To give name of container 
+docker run - it  - - name nameofconatainer ubuntu sh or /bin/bash
+
+To start a container 
+docker start container name
+
+To to process status for running container 
+docker ps
+
+To see all container process status
+docker ps – a
+
+To go inside container 
+docker attach container-nam
+
+Create a image from existing container 
+docker commit existing-container-name update-image-name
+
+Create a new-container from this update-image
+docker run - it  - - name  new-container update-image-name sh or /bin/bash
+
+To stop container 
+docker stop container-name
+
+To remove container 
+docker rm container-name
+
+To remove image
+docker rmi image-name
