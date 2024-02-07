@@ -1,3 +1,4 @@
 apt update
 apt install nginx -y 
 service nginx restart
+docker run -id -p 8087:80 -t nginx-ubuntu:latest
