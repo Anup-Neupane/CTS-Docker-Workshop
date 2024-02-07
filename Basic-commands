@@ -1,5 +1,6 @@
 To see docker images 
-docker image
+docker images
+
 To search build images in docker- hub 
 docker search imagename(Ubuntu)
 
