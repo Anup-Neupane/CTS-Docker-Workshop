@@ -9,3 +9,6 @@ docker volume inspect my_volume
 
 Delete a volume
 docker volume rm my_volume
+
+To list Volume
+docker volume ls
