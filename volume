@@ -2,7 +2,7 @@ Create a Volume:
 docker volume create my_volume
 
 Mount a Volume:
-docker run -d -v my_volume:/path/in/container my_image
+docker run -d -v my_volume:/path/in/container my_image 
 
 Inspect a Volume:
 docker volume inspect my_volume
@@ -12,3 +12,5 @@ docker volume rm my_volume
 
 To list Volume
 docker volume ls
+
+docker run -id --name new-container --privileged=true --volume-from old-container images 
