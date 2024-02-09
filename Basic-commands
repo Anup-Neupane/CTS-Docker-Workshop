@@ -36,3 +36,5 @@ docker rm container-name
 
 To remove image
 docker rmi image-name
+
+ sudo docker tag ubuntu dockerworkshop2024/demo:tagname
